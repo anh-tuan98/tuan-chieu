@@ -1,0 +1,16 @@
+.parent{
+  position: relative;
+  height: 600px;
+  width: 600px;
+  background-color: rgb(50, 50, 165);
+}
+.child{
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: 40%;
+  left: 50%;
+  background-color: rgb(56, 218, 24);
+  transform:translateY(-50%);
+  transform:translateX(-50%);
+}
